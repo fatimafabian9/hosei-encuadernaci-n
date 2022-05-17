@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0;
+  margin: 0;
+    box-sizing: border-box;
+}
+/*barnav*/
+
+#logo {
+  color: white;
+  font-size: 40pt;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  margin-left: 20px;
+}
+h2 {
+  color: antiquewhite;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 35pt;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+h3 {
+  color: #212529;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  font-size: 35pt;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+h4 {
+  color: antiquewhite;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 20pt;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+text-decoration:inherit; 
+	line-height: 35px;
+}
+.logi {
+  margin: 20px;
+  padding: 0px;
+}
+.fot {
+  margin: 20px;
+  padding: 0px;
+  display: inline-block;
+}
+#container {
+  width: 1025px;
+  background-color: #212529;
+  margin: 0px auto;
+  position: relative;
+  padding-top: 100px;
+}
+
+#section {
+  height: 1000px;
+  position: relative;
+  background-color: #993333;
+  opacity: 95%;
+  padding: 80px;
+  display: block;
+  overflow-x: auto;
+}
+.text_column {
+  font-size: 13pt;
+  color: white;
+  text-justify: center;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: justify;
+  letter-spacing: -0.5px;
+  word-spacing: -0.5px;
+}
+
+#footer {
+  background-color: #24252a;
+  height: 100px;
+  left: 0px;
+  bottom: 0px;
+  display: block;
+}
+.intro {
+  padding: 0px;
+  max-width: 500px;
+  margin: 24px auto 42px auto;
+  padding-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+.cover {
+  margin: 0;
+  padding: 30px;
+  height: 400px;
+  background-image: url("images/princi2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cover1 {
+  margin: 0;
+  padding: 30px;
+  height: 200px;
+  background-color: #24252a;
+  background-size: cover;
+  display: inline-block;
+}
+.cover2 {
+  margin: 20px;
+  padding: 30px;
+  height: 350px;
+  background-image: url("images/princi.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow-x: auto;
+  overflow: hidden;
+}
+.cover3 {
+  margin: 0;
+  padding: 10px;
+  height: 350px;
+  background-color: #24252a;
+  background-size: cover;
+}
+.cover4 {
+  margin: 0px;
+  padding: 30px;
+  height: 2500px;
+  background-color: antiquewhite;
+  background-size: cover;
+  display: block;
+  overflow-x: auto;
+  overflow: hidden;
+}
+.cover5 {
+  margin: 0;
+  padding: 30px;
+  height: 400px;
+  background-image: url("images/ban.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nav1 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+#nav2 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+#nav3 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+#1 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+#2 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+#3 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+.cont-ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.5vw;
+  transition: all 0.3s ease 0s;
+  align-content: center;
+}
+
+li:hover {
+  background-color: #cc3333;
+}
+.ul-second {
+  display: none;
+  position: absolute;
+  margin-top: 1.5vw;
+}
+.ul-third {
+  position: absolute;
+  transform: translateX(100%);
+  right: 0;
+  top: 40%;
+  display: none;
+  background-color: #24252a;
+}
+
+.ul-second > li {
+  border-bottom: solid 1px #ffffff;
+  text-align: center;
+  background-color: #24252a;
+}
+.ul-third > li {
+  padding: 1.5vw;
+  border-bottom: solid 1px #ffffff;
+}
+.ul-second > li:hover {
+  background-color: #cc3333;
+}
+
+.develop:hover > .ul-second {
+  display: block;
+}
+
+.front:hover > .ul-third {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .logo-danicodex {
+    display: none;
+  }
+}
+body {
+  background-image: url("images/fondo.jpg");
+  text-align: center;
+}
+.card-img {
+  height: 200px;
+  width: 200px;
+}
+h5 {
+  font-size: 14pt;
+  color: #24252a;
+  text-justify: center;
+  font-family: "Roboto Mono", monospace;
+}
+#mat {
+  display: flex;
+  justify-content: center;
+}
+#cono {
+  color: antiquewhite;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 20pt;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+#cono1 {
+  color: antiquewhite;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 20pt;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+.two-columns {
+  width: 50;
+  display: inline-block;
+  padding: 30px;
+}
+#section2 {
+  height: 2800px;
+  position: relative;
+  background-color: antiquewhite;
+  opacity: 100%;
+  padding: 80px;
+  display: block;
+  overflow-x: auto;
+}
+#ima {
+  width: 60%;
+  max-width: 960px;
+  margin: 0 auto;
+  height: auto;
+}
+#ima2 {
+  width: 60%;
+  max-width: 960px;
+  margin: 0 auto;
+  height: auto;
+}
+.article2 {
+	padding: 50px;
+	margin: 50px;
+	padding-right: 150px;
+}
+

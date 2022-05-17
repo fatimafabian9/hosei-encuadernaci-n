@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/887a835504.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS propio-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="slider.css" rel="stylesheet" type="text/css" />
+
+    <title>HŌSEI</title>
+  </head>
+  <body>
+    <a href="http://jquery.com/"></a>
+    <script src="bootstrap/jquery-3.6.0.js"></script>
+    <!-- empieza -->
+    <div class="container-xl">
+      <header>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" id="logo" href="index.html"
+              >HŌSEI
+              <img
+                src="images/logo.png"
+                alt="logo"
+                width="64.4075 px"
+                height="53.7714 px"
+                class="logi"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    id="nav1"
+                    href="historia.html"
+                    >Historia</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="nav2"
+                    href="contacto.html"
+                    aria-current="page"
+                    >Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="nav3"
+                    href="encu.html"
+                    aria-current="page"
+                    >Encuadernaciones</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--slider-->
+        <div class="carrousel">
+          <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+              <div class="itemCarrouselTarjeta">
+                <img src="images/1.jpg" alt="libros" />
+              </div>
+              <div class="itemCarrouselArrows">
+                <a href="#itemCarrousel-3">
+                  <i class="izq fas fa-chevron-left"></i>
+                </a>
+                <a href="#itemCarrousel-2">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+              <div class="itemCarrouselTarjeta">
+                <img src="images/3.jpg" alt="libros" />
+              </div>
+              <div class="itemCarrouselArrows">
+                <a href="#itemCarrousel-1">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#itemCarrousel-3">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+              <div class="itemCarrouselTarjeta">
+                <img src="images/2.jpg" alt="libros" />
+              </div>
+              <div class="itemCarrouselArrows">
+                <a href="#itemCarrousel-2">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#itemCarrousel-1">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="conteCarrouselController">
+            <a href="#itemCarrousel-1">•</a>
+            <a href="#itemCarrousel-2">•</a>
+            <a href="#itemCarrousel-3">•</a>
+          </div>
+        </div>
+        <!--fin slider-->
+        <div>
+          <div
+            class="d-flex justify-content-center d-flex align-items-center flex-column cover3"
+          >
+            <h1
+              style="
+                color: #cc3333;
+                font-size: 50pt;
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing: 3px;
+                text-align: center;
+              "
+              class="container"
+            >
+              ENCUADERNACIÓN
+            </h1>
+            <p
+              style="
+                text-align: center;
+                color: white;
+                font-family: 'Source Sans Pro', sans-serif;
+              "
+              class="intro"
+            >
+              La palabra <b>encuadernación </b> proviene del latín quaternos con
+              el prefijo <b> quaterni ‘cuatro’</b> Cuadernillo es cada pliego
+              que se dobla en forma de cruz o en cuatro, para ser incluido en un
+              libro.<br />
+              Por lo tanto, la encuadernación
+              <i
+                >es la unión de cuadernillos por uno de sus costados y unas
+                tapas a modo de cubiertas.
+              </i>
+            </p>
+          </div>
+        </div>
+      </header>
+      <article id="section2">
+        <div
+          class="aligncenter wp-block-ugb-container ugb-container is-style-raised-page ugb-4c457cc ugb-container--v2 ugb-container--design-basic ugb-main-block"
+        >
+          <div class="ugb-inner-block">
+            <div class="ugb-block-content">
+              <div class="ugb-container__wrapper ugb-4c457cc-wrapper">
+                <div class="ugb-container__side">
+                  <div
+                    class="ugb-container__content-wrapper ugb-4c457cc-content-wrapper"
+                  >
+                    <h2 style="color: #24252a">
+                      HISTORIA DE LA ENCUADERNACIÓN
+                    </h2>
+
+                    <p>
+                      Las primeras coberturas para proteger escritos datan del
+                      año 4,000 a.C. en la antigua Mesopotamia, aquí se escribía
+                      sobre tablillas de barro y para protegerlas se fabricaban
+                      envoltorios del mismo material, se puede decir en forma de
+                      sobre; en estas tablillas se ponían inscripciones o
+                      dibujos que las adornaban.
+                    </p>
+
+                    <p>
+                      Durante la civilización egipcia, se inventó un nuevo
+                      sistema para la escritura, el papiro, este se obtenía de
+                      una planta con forma de caña de dos a tres metros de
+                      altura que nacía a orillas de río Nilo. Al tratarse de un
+                      material orgánico necesitaban otra clase de objetos para
+                      proteger los documentos; así se encuentran varios tipos de
+                      encuadernaciones hechas con caja de madera, piel o marfil.
+                      &nbsp;&nbsp;
+                    </p>
+
+                    <blockquote class="wp-block-quote is-style-author-first">
+                      <p>
+                        En la época de los griegos y romanos se usaban
+                        recipientes hechos con arcilla para proteger sus
+                        pergaminos, algo económico pero incómodo para
+                        transportar los documentos.
+                      </p>
+
+                      <div>
+                        <img
+                          id="ima"
+                          src="images/img2.jpg"
+                          width="481px"
+                          height="435px"
+                          alt="Escritura en piedra"
+                        />
+                      </div>
+                      <cite>
+                        <em
+                          >Tablilla sumeria, Uruk III, 3100-2900 a.C..
+                          <a
+                            href="https://www.metmuseum.org/art/collection/search/329081"
+                            >The Metropolitan Museum of Art</a
+                          ></em
+                        ></cite
+                      >
+                    </blockquote>
+
+                    <h2 style="color: #24252a">EGIPTO</h2>
+
+                    <p>
+                      Durante la civilización egipcia, se inventó un nuevo
+                      sistema para la escritura, el papiro, este se obtenía de
+                      una planta con forma de caña de dos a tres metros de
+                      altura que nacía a orillas de río Nilo. Al tratarse de un
+                      material orgánico necesitaban otra clase de objetos para
+                      proteger los documentos; así se encuentran varios tipos de
+                      encuadernaciones hechas con caja de madera, piel o
+                      marfil.&nbsp;
+                    </p>
+
+                    <blockquote class="wp-block-quote is-style-author-first">
+                      <p>
+                        En la época de los griegos y romanos se usaban
+                        recipientes hechos con arcilla para proteger sus
+                        pergaminos, algo económico pero incómodo para
+                        transportar los documentos.
+                      </p>
+                      <div>
+                        <img
+                          id="ima2"
+                          src="images/img3.jpg"
+                          width="630px"
+                          height="315px"
+                          alt="Papiro"
+                        />
+                      </div>
+
+                      <cite><em> Papiro con inscripciones</em></cite>
+                    </blockquote>
+
+                    <h2 style="color: #24252a">
+                      De los codices a la encuadernación...
+                    </h2>
+
+                    <p>
+                      Después aparece el libro en forma de códice, en la caída
+                      del imperio romano. Un códice es un libro manuscrito
+                      anterior a la invención de la imprenta. Este formato hizo
+                      que se ideara otro tipo de protección, consistente en dos
+                      tablillas de madera de cedro usada por su aroma y
+                      ligereza, forrado con tiras de cuero de distintos colores
+                      y decoraciones.&nbsp;
+                    </p>
+                    <p>
+                      En Europa, los códices más antiguos datan del siglo VII,
+                      son encuadernaciones muy hermosas hechas con metales
+                      preciosos, en esta época los libros se llegan a llamar
+                      libros-joya; eran libros encuadernados con incrustaciones
+                      de hueso, marfil, piedras preciosas y semipreciosas.
+                      Llegando a la Edad Media en los siglos V al XV se
+                      encuentran documentos que ya contaban con una portada
+                      diferente y sus hojas se encuentran unidas por un lomo;
+                      por otro lado, se menciona la innovación de la invención
+                      del papel chino.
+                    </p>
+                    <p>
+                      La invención de la imprenta provocó que el número de
+                      textos fuera mayor, en esta época dejaron de ser los
+                      libros tan ostentosos y se vuelven más cómodos y menos
+                      pesados, la madera se cambia por un papel más grueso
+                      cubierto de tela o papeles decorados, así como pegamentos,
+                      hilos y cordones.
+                    </p>
+                    <p>
+                      Un objeto tan bello y útil como un libro, no puede
+                      desaparecer por completo de la faz de la tierra, un libro
+                      es uno de los más asombrosos instrumentos que la humanidad
+                      ha inventado. El libro nos ha permitido difundir la
+                      cultura, en su forma actual, de papel y tinta, ha sido el
+                      mejor compañero a lo largo de los últimos 500 años.
+                    </p>
+                    <blockquote class="wp-block-quote is-style-author-first">
+                      <p>
+                        Ahora nos podemos dar cuenta que la encuadernación
+                        artesanal es infinita, cada vez que se elabora un libro
+                        artesanal el resultado es distinto, aunque sigamos los
+                        pasos de uno, ninguno es igual a otro, es muy diverso y
+                        eso lo hace original, finalmente es un objeto artístico.
+                      </p>
+                    </blockquote>
+                    <articule>
+                      <div class="container two-columns">
+                        <div class="row justify-content-around">
+                          <div class="col-lg-4 text_column">
+                            <img
+                              src="images/antiguo.jpg"
+                              class="card-img-top"
+                              alt="papel"
+                            />
+                          </div>
+
+                          <div class="col-lg-4 text_column">
+                            <img
+                              src="images/pol.jpg"
+                              class="card-img-top"
+                              alt="papel"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <cite> <em>Libros de la Edad Media </em></cite>
+                    </articule>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <footer id="footer">
+      <div
+        class="d-flex justify-content-center d-flex align-items-center flex-column cover1"
+      >
+        <h2
+          style="
+            color: white;
+            font-size: 18pt;
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 3px;
+            text-align: center;
+            margin: 20px;
+          "
+          class="container"
+        >
+          © 2022
+        </h2>
+        <p
+          style="
+            color: white;
+            font-size: 10pt;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 1px;
+            text-align: center;
+          "
+          class="container"
+        >
+          Universidad Autónoma Metropolitana
+        </p>
+        <img
+          src="images/uam.png"
+          alt="logo"
+          width="211.3043 px"
+          height="36.4777 px"
+        />
+      </div>
+    </footer>
+
+    <!--acaba-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
